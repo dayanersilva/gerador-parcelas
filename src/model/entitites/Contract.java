@@ -49,10 +49,4 @@ public class Contract {
 		return installments;
 	}
 
-	public void setInstallments(List<Installment> installments) {
-		this.installments = installments;
-	}
-	
-	
-
 }

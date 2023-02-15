@@ -37,7 +37,7 @@ public class Program {
 
 		System.out.println("Parcelas: ");
 		for (Installment fatura : contract.getInstallments()) {
-			System.out.println(dtf.format(fatura.getDueDate()) + " - " + fatura.getAmount());
+			System.out.println(fatura);
 		}
 
 		scan.close();
